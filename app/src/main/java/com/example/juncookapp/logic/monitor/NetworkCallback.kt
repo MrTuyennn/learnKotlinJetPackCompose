@@ -1,0 +1,1 @@
+package com.example.juncookapp.logic.monitorimport android.net.ConnectivityManagerimport android.net.Networkval networkCallback = object : ConnectivityManager.NetworkCallback() {    override fun onAvailable(network: Network) {        // Called when a network is available    }    override fun onLost(network: Network) {        // Called when a network is lost    }}
