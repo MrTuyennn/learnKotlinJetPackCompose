@@ -10,11 +10,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import com.example.juncookapp.logic.ConnectivityObserver
+import com.example.juncookapp.logic.LMNetWork
 import com.example.juncookapp.logic.NetworkConnectivityObserver
 
 @Composable
 fun LoginScreen() {
     val context = LocalContext.current
+
+    val isConnected = LMNetWork.checkConnectivity(context)
+
 
     lateinit var connectivityObserver: ConnectivityObserver
 
