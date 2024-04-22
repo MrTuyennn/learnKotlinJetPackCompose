@@ -1,0 +1,1 @@
+package com.example.juncookapp.logic.JunCookMediaimport androidx.room.Entityimport androidx.room.PrimaryKey@Entity(tableName = "files")data class FileEntity(    val id: Long,    val path: String,    val uri: String,    val name: String,    val dateTime: Long,    val mimeType: String,    val size: Long,    val bookmarked: Boolean)

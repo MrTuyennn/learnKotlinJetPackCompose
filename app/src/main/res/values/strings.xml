@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">juncookapp</string>
+    <string name="allow_access">allow_access</string>
+    <string name="allow_access_detail">allow_access_detail</string>
+    <string name="open_setting">open_setting</string>
+    <string name="not_now">not_now</string>
+    <string name="external_storage_permission">external_storage_permission</string>
+    <string name="external_storage_rationale_message">external_storage_rationale_message</string>
+    <string name="close">close</string>
 </resources>

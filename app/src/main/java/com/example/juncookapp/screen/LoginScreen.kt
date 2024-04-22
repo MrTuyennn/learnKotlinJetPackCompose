@@ -29,6 +29,7 @@ fun LoginScreen() {
     )
     Box(modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center){
+
         Text(text = "Network status $status",color = MaterialTheme.colorScheme.primary)
     }
 }
